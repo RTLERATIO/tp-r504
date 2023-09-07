@@ -1,6 +1,9 @@
+import fonctions as f
+
 print("Hello, World !")
 
 while True:
-	chiffre = float(input("Ecrivez un nombre :"))
-	chiffre = chiffre*chiffre
-	print(chiffre)
+	a = input("Ecrivez a : ")
+        b = input("Ecrivez b : ")
+	res = f.puissance(a,b)
+
