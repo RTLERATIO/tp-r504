@@ -1,7 +1,8 @@
 def puissance(a,b):
-	resultat = a**b
-	print(resultat)
-	if not type(var) is int :
+
+	if not type(a) and type(b) is int :
 		raise TypeError("Only integers are allowed")
-while True:
-	puissance()
+
+	resultat =int(a**b)
+	print(resultat)
+
