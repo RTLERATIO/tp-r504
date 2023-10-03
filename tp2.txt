@@ -1,0 +1,41 @@
+Q1.1: 9
+
+Q1.2: 534,9 Mo
+
+Q1.3: Elle permet de montrée toutes les modifications de chaque ligne
+
+Q1.4: Jake Ginnivan
+
+Q1.5: 3e5d1596
+
+Q1.6: Adding tag command reference
+
+Q1.7: Tue Jun 17 21:47:47 2014 +0100
+
+Q1.8: 294c63b9653d93caefdd233da52fc0cd6ca95268 
+
+Q1.9:Author: Wei Wang <weiwang85@gmail.com> Date:   Tue Jan 6 17:14:04 2015 -0500
+
+Q1.10: git log --oneline | wc -l il y a 91 lignes
+
+Q1.11: Avec reference on a en plus du message du commit la date a la quel le commit a été effectué
+
+Q1.12:git log --format="%an"
+
+Q1.13:git log --format="%an" | sort | uniq | wc -l
+
+Q2.1: git status
+
+Q2.2: main
+
+Q2.5: non
+
+Q2.6: Non
+
+Q2.7:Elle afficher la difference entre les deux branches tp2 et main avec le fichier en + ou en -
+
+Q3.1: Non
+
+Q3.3:Oui
+
+Q3.4: La modification a bien été faite
