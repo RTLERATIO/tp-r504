@@ -1,15 +1,18 @@
-import java.io.*;
 import java.net.*;
+import java.io.*;
+import org.apache.http.HttpEntity;
+import org.apache.http.client.*;
+import org.apache.http.client.methods.*;
+import org.apache.http.impl.client.*;
 
 public class Client1
 {
 	public static void main(String[] args)
 	{
 		try{
-			Socket socket = new Socket ("localhost", 2016);
-			DataOutputStream dOut = new DataOutputStream (socket.getOutputStream());
-			dOut.writeUTF(args[0]);
-			socket.close();
+			CloseableHttpClient client = HttpClients.createDefault();
+			String url = "http://"+args[0];
+			HttpGet request = new HttpGet(url);
 		}
 		catch(Exception ex) {
 		ex.printStackTrace();
